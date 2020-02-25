@@ -1,6 +1,6 @@
 const net = require('net')
 const util = require('util')
-const config = require('../config/config')
+const config = require('../config/config.json')
 const parse = require('../utils/parse')
 const serverIP = '0.0.0.0'
 const port = config.port
