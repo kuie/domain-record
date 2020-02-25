@@ -1,0 +1,10 @@
+{
+  "server": "<服务器地址>",
+  "port": "<运行端口>",
+  "key": "16位加密串",
+  "iv": "16位加密串",
+  "aliyun": {
+    "AccessKey": "key信息",
+    "AccessKeySecret": "key密码"
+  }
+}
