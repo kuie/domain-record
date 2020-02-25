@@ -1,0 +1,11 @@
+{
+  "name": "IPGetter",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "node ./server/server.js",
+    "client": "node ./client/client.js",
+    "test": "npm run server && npm run client"
+  },
+  "dependencies": {
+  }
+}
