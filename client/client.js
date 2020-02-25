@@ -1,6 +1,6 @@
 const net = require('net')
 const parse = require('../utils/parse')
-const config = require('../config/config')
+const config = require('../config/config.json')
 const url = config.server, urlPort = config.port
 const client = net.connect(urlPort, url)
 client.on('data', data => {
