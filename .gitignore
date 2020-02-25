@@ -15,3 +15,7 @@ yarn-error.log*
 /.settings/
 .project
 package-lock.json
+
+#阻止 config 文件自动提交
+
+/config/config.json
