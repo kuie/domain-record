@@ -7,6 +7,7 @@ const port = config.port
 const server = net.createServer()
 //链接成功后向访问者返回加密的ip地址
 server.on('connection', socket => {
+    console.log(socket.remoteAddress)
     socket.write(parse.enCode(socket.remoteAddress))
     socket.end()
 })
